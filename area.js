@@ -13,7 +13,7 @@ function calculateArea(){
     var prodOfBaseAndHeight = calculateProdOfBaseAndHeight(Number(sides[0].value), Number(sides[1].value))
     var triangleArea = prodOfBaseAndHeight/2
 
-    areaOfTriangle.innerText = "The area of the triangle is: " +triangleArea + "square centimeter"
+    areaOfTriangle.innerText = "The area of the triangle is: " +triangleArea + " squared cm"
 }
 
 checkAreaBtn.addEventListener("click", calculateArea)

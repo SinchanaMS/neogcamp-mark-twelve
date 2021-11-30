@@ -1,0 +1,121 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #FAE8FF;
+    background-image: url(https://wallpaperaccess.com/full/387027.jpg);
+}
+
+.navigation {
+    background-color: #312E81;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    
+}
+
+
+.nav-brand {
+    font-weight: bold;
+    font-size: large; 
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.secondary-link {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 1rem 0.5rem;
+    margin: auto 0.5rem;
+    border: white 1px solid;
+}
+
+header{
+    padding: 1rem;
+    
+}
+.hero {
+    padding: 3rem 0rem;
+}
+
+.section{
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+    
+}
+.ow{
+    background-color: #E0E7FF;
+    border-radius: 12px;
+    opacity: 0.8;
+    
+}
+
+.sides{
+    display: block;
+    margin: 1.5rem auto;
+    padding: 12px;
+    border-radius: 12px;
+    width: 50%;
+}
+.label-sides {
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+.question-container{
+    padding: 1rem;
+}
+p{
+    font-weight: bold;
+}
+button {
+    display: block;
+    margin: 3rem auto;
+    padding: 12px;
+    border-radius: 12px;
+    width: 30%;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #312E81;
+    color: white;
+}
+
+#output {
+    display: block;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    
+}

@@ -5,14 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Calculate the hypoptenuse of a triangle</h1>
-    <input id="side-a" type="number" class="sides-length"></input>
-    <input id="side-b" type="number" class="sides-length"></input>
+    <nav class="navigation">
+        
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/index.html">Is It a Triangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/hypotenuse.html">Hypotenuse Length</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/area.html">Area of Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/quiz.html">Triangle Quiz</a>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <section class="section ow">
+    <h1 class="hero">Calculate the hypoptenuse of a triangle</h1>
+    <label class="label-sides">Side A</label>
+    <input id="side-a" type="number" class="sides-length sides"></input>
+    <label class="label-sides">Side B</label>
+    <input id="side-b" type="number" class="sides-length sides"></input>
     <button id="calc-hypotenuse">Calculate Hypotenuse</button>
     <div id="output"></div>
-
+        </section>
+    </header>
     <script src="hypotenuse.js" type="text/javascript"></script>
 </body>
 </html>

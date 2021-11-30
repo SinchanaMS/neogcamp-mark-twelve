@@ -16,7 +16,7 @@ function calculateScore() {
         index = index+1         
     }
 
-    outputScore.innerText = "your score is: " + score
+    outputScore.innerText = "Your score is: " + score
 }
 
 checkScoreBtn.addEventListener('click', calculateScore)
