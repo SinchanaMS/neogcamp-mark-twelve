@@ -2,7 +2,7 @@ var quizForm = document.querySelector(".quiz-form")
 var checkScoreBtn = document.querySelector("#check-score-btn")
 var outputScore = document.querySelector("#output")
 
-const correctAnswers = ["45°","Isosceles triangle","60°"]
+const correctAnswers = ["45°","Isosceles triangle","60°","acute","Scalene triangle"]
 
 function calculateScore() {
     let score = 0;
