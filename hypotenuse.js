@@ -11,11 +11,17 @@ function calculateSumOfSquares(a,b){
 }
 
 function calculateHypotenuse(){
+    for (var i=0; i<sidesLength.length; i++){
+    if (Number(sidesLength[i].value)==" " || Number(sidesLength[i].value)<=0 ){
+        hypotenuseLength.innerText= "Please enter valid inputs"}
+        else {
     var sumOfSquares = calculateSumOfSquares((sidesLength[0].value), (sidesLength[1].value));
     
     var hypotenuse = Math.sqrt(sumOfSquares)
 
     hypotenuseLength.innerText = "The length of the hypotenuse is: " + hypotenuse
+        }
+    }
 }
 
 calcHypotenuseBtn.addEventListener("click", calculateHypotenuse) 
